@@ -1,0 +1,30 @@
+.articleImage {
+    height: 10rem;
+    width: auto;
+    border:2px solid black ;  
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    text-align: left;
+    border-bottom: 2px solid grey;
+}
+
+.articleContainer {
+    display:flex;
+}
+
+.description {
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    margin-bottom: 1rem;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+

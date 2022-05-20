@@ -1,0 +1,28 @@
+.Item{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+    width: 240px;
+    height: 20px;
+    border: 2px solid #f5f2e1;
+    border-radius: 2px;
+    padding: 10px;
+    background: rgb(0, 0, 0);
+}
+.Item p {
+    margin:0;
+    font-family: "Gotham";
+    font-size: 23px;
+    font-weight:lighter;
+    color:white;
+    text-transform: uppercase;
+}
+
+.Item button{
+    width: 20px;
+    height: 20px;
+    border-radius: 20%;
+    padding: 2px;
+    outline:none;
+}
+
